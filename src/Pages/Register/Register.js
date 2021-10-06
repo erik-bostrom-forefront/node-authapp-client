@@ -14,8 +14,10 @@ function Register () {
             Register
           </Typography>
           <TextField id="register-email" label="Email" />
-          <TextField id="register-first-name" label="First name" />
-          <TextField id="register-last-name" label="Last name" />
+          <Box sx={{flexDirection: 'row', alignItems: 'stretch'}}>
+            <TextField id="register-first-name" label="First name" />
+            <TextField id="register-last-name" label="Last name" />
+          </Box>
           <TextField id="register-password" label="Password" type="password" />
           <TextField id="register-confirm-password" label="Confirm password" type="password" />
           <Button variant='contained'>Register</Button>
